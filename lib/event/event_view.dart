@@ -14,6 +14,7 @@ class _EventViewState extends State<EventView> {
     final al = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(title: Text(al.appTitle),),
+      body: const Text("Body"),
     );
   }
 }
