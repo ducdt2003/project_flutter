@@ -1,0 +1,48 @@
+# name: flutter_hello_template
+# description: "A new Flutter project."
+# publish_to: 'none'
+# version: 0.1.0
+
+# environment:
+#   sdk: ^3.5.3
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+
+#     flutter_test:
+#     sdk: flutter
+#   flutter_lints: ^4.0.0
+
+# flutter:
+#   uses-material-design: true
+
+name: flutter_hello_template
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  localstore: ^1.4.0
+  syncfusion_flutter_calendar: ^28.1.33
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
