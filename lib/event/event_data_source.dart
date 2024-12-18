@@ -51,4 +51,3 @@ class EventDataSource extends CalendarDataSource {
     return item.isAllDay ? const Color(0xFF0F8644): super.getColor(index);
   }
 }
-

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hello_template/event/event_model.dart';
 import 'package:flutter_hello_template/event/event_service.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class EventDetailView extends StatefulWidget {
 
@@ -73,10 +74,11 @@ class _EventDetailViewState extends State<EventDetailView> {
 
   @override
   Widget build(BuildContext context) {
+    final al = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
-        title: 
-        Text(widget.event.id == null ? 'Thêm sự kiện' : 'Chi tiết sự kiện',
+        title: Text(
+        widget.event.id == null ? al.addEvent : al.eventDetails,
         ),
       ),
     );
